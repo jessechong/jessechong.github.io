@@ -111,10 +111,10 @@ particlesJS("particle-nav",
 }
 );
 
-let stringsMed1 = ["Software Engineer", "Web Developer", "Undergrad Researcher", "Lifelong Student"];
-let stringsMed2 = ["Software Dev", "Web Developer", "Researcher", "Lifelong Student"];
-let stringsMobile = ["Software Dev", "Web Dev", "Researcher", "Student"];
-let stringsFull = ["Software Engineer", "Web Developer", "Undergraduate Researcher", "Lifelong Student"];
+let stringsMed1   = ["Software Engineer", "Web Developer", "Graduate Student", "Lifelong Learner"];
+let stringsMed2   = ["Software Dev", "Web Developer", "MSCS Student", "Lifelong Learner"];
+let stringsMobile = ["Software Dev", "Web Dev", "MSCS Student", "Learner"];
+let stringsFull   = ["Software Engineer", "Web Developer", "Graduate Student", "Lifelong Learner"];
 
 let typewriterHeading = new Typewriter('#typewriter-heading', {
   strings: stringsMed1,
